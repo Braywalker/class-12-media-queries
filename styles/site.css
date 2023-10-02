@@ -136,7 +136,19 @@ blockquote {
   margin-left: 0;
 }
 
-@media (max width: 700px){
+.content-container{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 500px){
   header{
     flex-direction: column;
   }
