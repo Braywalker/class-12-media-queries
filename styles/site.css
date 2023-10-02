@@ -136,5 +136,17 @@ blockquote {
   margin-left: 0;
 }
 
+@media (max width: 700px){
+  header{
+    flex-direction: column;
+  }
+  nav ul{
+    flex-direction: column;
+  }
+  .content-container{
+    flex-direction: column;
+  }
+}
+
 /* Note: No credit is provided for submitting design and/or code that is taken */
 /*       from course-provided examples. This includes the Ithaca Zoo example.  */
